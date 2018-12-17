@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1900EE11217A1C3D00055B7A /* EZPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1900EE10217A1C3D00055B7A /* EZPDFDocument.swift */; };
+		190F7C98219327D700D61D12 /* EZ_GraderUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F7C97219327D700D61D12 /* EZ_GraderUnitTests.swift */; };
+		190F7CA621932E8200D61D12 /* EZ_GraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F7CA521932E8200D61D12 /* EZ_GraderUITests.swift */; };
+		1911F8A721B8613F001D7B0D /* UICustomizeColorStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911F8A621B8613F001D7B0D /* UICustomizeColorStackView.swift */; };
+		38D9EBFB207F3A37000CBE89 /* GradePDFDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9EBFA207F3A37000CBE89 /* GradePDFDocumentsViewController.swift */; };
+		38E8A1D3206B8D55003ABA99 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E8A1D2206B8D55003ABA99 /* Launch Screen.storyboard */; };
+		84CACB062020310F008D8AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CACB052020310F008D8AB1 /* AppDelegate.swift */; };
+		84CACB082020310F008D8AB1 /* SelectPDFDocumentsToGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CACB072020310F008D8AB1 /* SelectPDFDocumentsToGradeViewController.swift */; };
+		84CACB0B2020310F008D8AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CACB092020310F008D8AB1 /* Main.storyboard */; };
+		84CACB0E2020310F008D8AB1 /* EZ_Grader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CACB0C2020310F008D8AB1 /* EZ_Grader.xcdatamodeld */; };
+		84CACB102020310F008D8AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CACB0F2020310F008D8AB1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190F7C9A219327D700D61D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CACAFA2020310F008D8AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CACB012020310F008D8AB1;
+			remoteInfo = "EZ Grader";
+		};
+		190F7CA821932E8200D61D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CACAFA2020310F008D8AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CACB012020310F008D8AB1;
+			remoteInfo = "EZ Grader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1900EE10217A1C3D00055B7A /* EZPDFDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZPDFDocument.swift; sourceTree = "<group>"; };
+		190F7C95219327D700D61D12 /* EZ GraderUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ GraderUnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		190F7C97219327D700D61D12 /* EZ_GraderUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_GraderUnitTests.swift; sourceTree = "<group>"; };
+		190F7C99219327D700D61D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190F7CA321932E8200D61D12 /* EZ GraderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ GraderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		190F7CA521932E8200D61D12 /* EZ_GraderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_GraderUITests.swift; sourceTree = "<group>"; };
+		190F7CA721932E8200D61D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1911F8A621B8613F001D7B0D /* UICustomizeColorStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomizeColorStackView.swift; sourceTree = "<group>"; };
+		38D7031720863762003B1281 /* EZ Grader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EZ Grader.entitlements"; sourceTree = "<group>"; };
+		38D9EBFA207F3A37000CBE89 /* GradePDFDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradePDFDocumentsViewController.swift; sourceTree = "<group>"; };
+		38E8A1D2206B8D55003ABA99 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		84CACB022020310F008D8AB1 /* EZ Grader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ Grader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CACB052020310F008D8AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84CACB072020310F008D8AB1 /* SelectPDFDocumentsToGradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPDFDocumentsToGradeViewController.swift; sourceTree = "<group>"; };
+		84CACB0A2020310F008D8AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CACB0D2020310F008D8AB1 /* EZ_Grader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZ_Grader.xcdatamodel; sourceTree = "<group>"; };
+		84CACB0F2020310F008D8AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CACB142020310F008D8AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190F7C92219327D700D61D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190F7CA021932E8200D61D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CACAFF2020310F008D8AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190F7C96219327D700D61D12 /* EZ GraderUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				190F7C97219327D700D61D12 /* EZ_GraderUnitTests.swift */,
+				190F7C99219327D700D61D12 /* Info.plist */,
+			);
+			path = "EZ GraderUnitTests";
+			sourceTree = "<group>";
+		};
+		190F7CA421932E8200D61D12 /* EZ GraderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				190F7CA521932E8200D61D12 /* EZ_GraderUITests.swift */,
+				190F7CA721932E8200D61D12 /* Info.plist */,
+			);
+			path = "EZ GraderUITests";
+			sourceTree = "<group>";
+		};
+		38D9EBFC207F3FDC000CBE89 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84CACB072020310F008D8AB1 /* SelectPDFDocumentsToGradeViewController.swift */,
+				38D9EBFA207F3A37000CBE89 /* GradePDFDocumentsViewController.swift */,
+				1900EE10217A1C3D00055B7A /* EZPDFDocument.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		84CACAF92020310F008D8AB1 = {
+			isa = PBXGroup;
+			children = (
+				84CACB042020310F008D8AB1 /* EZ Grader */,
+				190F7C96219327D700D61D12 /* EZ GraderUnitTests */,
+				190F7CA421932E8200D61D12 /* EZ GraderUITests */,
+				84CACB032020310F008D8AB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CACB032020310F008D8AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CACB022020310F008D8AB1 /* EZ Grader.app */,
+				190F7C95219327D700D61D12 /* EZ GraderUnitTests.xctest */,
+				190F7CA321932E8200D61D12 /* EZ GraderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CACB042020310F008D8AB1 /* EZ Grader */ = {
+			isa = PBXGroup;
+			children = (
+				38D7031720863762003B1281 /* EZ Grader.entitlements */,
+				38D9EBFC207F3FDC000CBE89 /* View Controllers */,
+				84CACB052020310F008D8AB1 /* AppDelegate.swift */,
+				84CACB092020310F008D8AB1 /* Main.storyboard */,
+				38E8A1D2206B8D55003ABA99 /* Launch Screen.storyboard */,
+				84CACB0F2020310F008D8AB1 /* Assets.xcassets */,
+				84CACB142020310F008D8AB1 /* Info.plist */,
+				84CACB0C2020310F008D8AB1 /* EZ_Grader.xcdatamodeld */,
+				1911F8A621B8613F001D7B0D /* UICustomizeColorStackView.swift */,
+			);
+			path = "EZ Grader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190F7C94219327D700D61D12 /* EZ GraderUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190F7C9E219327D700D61D12 /* Build configuration list for PBXNativeTarget "EZ GraderUnitTests" */;
+			buildPhases = (
+				190F7C91219327D700D61D12 /* Sources */,
+				190F7C92219327D700D61D12 /* Frameworks */,
+				190F7C93219327D700D61D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190F7C9B219327D700D61D12 /* PBXTargetDependency */,
+			);
+			name = "EZ GraderUnitTests";
+			productName = "EZ GraderUnitTests";
+			productReference = 190F7C95219327D700D61D12 /* EZ GraderUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		190F7CA221932E8200D61D12 /* EZ GraderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190F7CAA21932E8200D61D12 /* Build configuration list for PBXNativeTarget "EZ GraderUITests" */;
+			buildPhases = (
+				190F7C9F21932E8200D61D12 /* Sources */,
+				190F7CA021932E8200D61D12 /* Frameworks */,
+				190F7CA121932E8200D61D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190F7CA921932E8200D61D12 /* PBXTargetDependency */,
+			);
+			name = "EZ GraderUITests";
+			productName = "EZ GraderUITests";
+			productReference = 190F7CA321932E8200D61D12 /* EZ GraderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		84CACB012020310F008D8AB1 /* EZ Grader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CACB2D20203110008D8AB1 /* Build configuration list for PBXNativeTarget "EZ Grader" */;
+			buildPhases = (
+				84CACAFE2020310F008D8AB1 /* Sources */,
+				84CACAFF2020310F008D8AB1 /* Frameworks */,
+				84CACB002020310F008D8AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EZ Grader";
+			productName = "EZ Grader";
+			productReference = 84CACB022020310F008D8AB1 /* EZ Grader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CACAFA2020310F008D8AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = RIT;
+				TargetAttributes = {
+					190F7C94219327D700D61D12 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CACB012020310F008D8AB1;
+					};
+					190F7CA221932E8200D61D12 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CACB012020310F008D8AB1;
+					};
+					84CACB012020310F008D8AB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84CACAFD2020310F008D8AB1 /* Build configuration list for PBXProject "EZ Grader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CACAF92020310F008D8AB1;
+			productRefGroup = 84CACB032020310F008D8AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CACB012020310F008D8AB1 /* EZ Grader */,
+				190F7C94219327D700D61D12 /* EZ GraderUnitTests */,
+				190F7CA221932E8200D61D12 /* EZ GraderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190F7C93219327D700D61D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190F7CA121932E8200D61D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CACB002020310F008D8AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E8A1D3206B8D55003ABA99 /* Launch Screen.storyboard in Resources */,
+				84CACB102020310F008D8AB1 /* Assets.xcassets in Resources */,
+				84CACB0B2020310F008D8AB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190F7C91219327D700D61D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190F7C98219327D700D61D12 /* EZ_GraderUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190F7C9F21932E8200D61D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190F7CA621932E8200D61D12 /* EZ_GraderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CACAFE2020310F008D8AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1900EE11217A1C3D00055B7A /* EZPDFDocument.swift in Sources */,
+				84CACB082020310F008D8AB1 /* SelectPDFDocumentsToGradeViewController.swift in Sources */,
+				84CACB0E2020310F008D8AB1 /* EZ_Grader.xcdatamodeld in Sources */,
+				84CACB062020310F008D8AB1 /* AppDelegate.swift in Sources */,
+				38D9EBFB207F3A37000CBE89 /* GradePDFDocumentsViewController.swift in Sources */,
+				1911F8A721B8613F001D7B0D /* UICustomizeColorStackView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190F7C9B219327D700D61D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CACB012020310F008D8AB1 /* EZ Grader */;
+			targetProxy = 190F7C9A219327D700D61D12 /* PBXContainerItemProxy */;
+		};
+		190F7CA921932E8200D61D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CACB012020310F008D8AB1 /* EZ Grader */;
+			targetProxy = 190F7CA821932E8200D61D12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CACB092020310F008D8AB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CACB0A2020310F008D8AB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		190F7C9C219327D700D61D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Q3S329ZG;
+				INFOPLIST_FILE = "EZ GraderUnitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AkshayKalbhor.EZ-GraderUnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZ Grader.app/EZ Grader";
+			};
+			name = Debug;
+		};
+		190F7C9D219327D700D61D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Q3S329ZG;
+				INFOPLIST_FILE = "EZ GraderUnitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AkshayKalbhor.EZ-GraderUnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZ Grader.app/EZ Grader";
+			};
+			name = Release;
+		};
+		190F7CAB21932E8200D61D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Q3S329ZG;
+				INFOPLIST_FILE = "EZ GraderUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AkshayKalbhor.EZ-GraderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EZ Grader";
+			};
+			name = Debug;
+		};
+		190F7CAC21932E8200D61D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Q3S329ZG;
+				INFOPLIST_FILE = "EZ GraderUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AkshayKalbhor.EZ-GraderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EZ Grader";
+			};
+			name = Release;
+		};
+		84CACB2B20203110008D8AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84CACB2C20203110008D8AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CACB2E20203110008D8AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Q3S329ZG;
+				INFOPLIST_FILE = "EZ Grader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AkshayKalbhor.EZGrader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CACB2F20203110008D8AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Q3S329ZG;
+				INFOPLIST_FILE = "EZ Grader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AkshayKalbhor.EZGrader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190F7C9E219327D700D61D12 /* Build configuration list for PBXNativeTarget "EZ GraderUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190F7C9C219327D700D61D12 /* Debug */,
+				190F7C9D219327D700D61D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190F7CAA21932E8200D61D12 /* Build configuration list for PBXNativeTarget "EZ GraderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190F7CAB21932E8200D61D12 /* Debug */,
+				190F7CAC21932E8200D61D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CACAFD2020310F008D8AB1 /* Build configuration list for PBXProject "EZ Grader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CACB2B20203110008D8AB1 /* Debug */,
+				84CACB2C20203110008D8AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CACB2D20203110008D8AB1 /* Build configuration list for PBXNativeTarget "EZ Grader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CACB2E20203110008D8AB1 /* Debug */,
+				84CACB2F20203110008D8AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84CACB0C2020310F008D8AB1 /* EZ_Grader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84CACB0D2020310F008D8AB1 /* EZ_Grader.xcdatamodel */,
+			);
+			currentVersion = 84CACB0D2020310F008D8AB1 /* EZ_Grader.xcdatamodel */;
+			path = EZ_Grader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84CACAFA2020310F008D8AB1 /* Project object */;
+}
